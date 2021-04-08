@@ -1,4 +1,4 @@
-duration = int(input('Введите продолжительность: '))
+duration = int(input(' Введите продолжительность: '))
 seconds = duration % 60
 
 if duration < 60:
