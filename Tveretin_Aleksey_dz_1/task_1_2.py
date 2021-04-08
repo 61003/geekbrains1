@@ -16,17 +16,17 @@ def find_magic_sum(cubes):
 cubes = []
 for number in range(1, 1000, 2):
     cubes.append(number ** 3)
-sum = find_magic_sum(cubes)
-print('Сумма всех чисел по задаче "a"={}'.format(sum))
+total_sum = find_magic_sum(cubes)
+print('Сумма всех чисел по задаче "a"= {}'.format(total_sum))
 
 cubes_plus_17 = []
 for cube in cubes:
     cubes_plus_17.append(cube + 17)
-sum = find_magic_sum(cubes_plus_17)
-print('Сумма всех чисел по задаче "b"={}'.format(sum))
+total_sum = find_magic_sum(cubes_plus_17)
+print('Сумма всех чисел по задаче "b"= {}'.format(total_sum))
 
 for cube_index in range(len(cubes)):
     cubes[cube_index] += 17
 
-sum = find_magic_sum(cubes)
-print('Сумма всех чисел по задаче "c"={}'.format(sum))
+total_sum = find_magic_sum(cubes)
+print('Сумма всех чисел по задаче "c"= {}'.format(total_sum))
