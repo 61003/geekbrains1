@@ -10,4 +10,4 @@ def declension(number):
 
 
 for number in range(1, 21):
-    print('{}  {}'.format(number, declension(number)))
+    print('{} {}'.format(number, declension(number)))
